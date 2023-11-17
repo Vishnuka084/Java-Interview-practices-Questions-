@@ -22,11 +22,20 @@ public class reverseString {
 
         System.out.println(reverse);*/
 
-        String input = "Vishnuka Yahan";
+/*        String input = "Vishnuka Yahan";
         System.out.println(input);
         StringBuilder input1 = new StringBuilder();
 
         input1.append(input);
+        input1.reverse();
+
+        System.out.println(input1);*/
+
+
+        String input = "Vishnuka Yahan";
+        System.out.println(input);
+        StringBuilder input1 = new StringBuilder(input);
+
         input1.reverse();
 
         System.out.println(input1);
