@@ -1,5 +1,7 @@
 package src;
 
+import java.util.Scanner;
+
 /**
  * Created by Vishnuka Yahan
  *
@@ -31,14 +33,30 @@ public class reverseString {
 
         System.out.println(input1);*/
 
-
-        String input = "Vishnuka Yahan";
+/*        String input = "Vishnuka Yahan";
         System.out.println(input);
         StringBuilder input1 = new StringBuilder(input);
 
         input1.reverse();
 
-        System.out.println(input1);
+        System.out.println(input1);*/
 
+        Scanner scanner = new Scanner(System.in);
+        String Str = scanner.nextLine();
+        char[] arr = Str.toCharArray();
+
+        String rev = "";
+
+        for(int i = Str.length() - 1; i >= 0; i--)
+        {
+            rev = rev + Str.charAt(i);
+        }
+
+        System.out.println(rev);
     }
 }
+
+
+
+
+
