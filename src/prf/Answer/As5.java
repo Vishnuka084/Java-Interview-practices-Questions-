@@ -10,6 +10,30 @@ package src.prf.Answer;
 public class As5 {
     public static void main(String[] args) {
         oneAnswer();
+        System.out.println("======02======");
+        twoAnswer();
+        System.out.println("======03======");
+        threeAnswer();
+        System.out.println("======04======");
+        System.out.println("======05======");
+        System.out.println("======06======");
+        System.out.println("======07======");
+        System.out.println("======08======");
+        System.out.println("======09======");
+        System.out.println("======10======");
+
+    }
+
+    private static void threeAnswer() {
+        for (int i = 100; i >0 ; i--) {
+            System.out.println(i+ "");
+        }
+    }
+
+    private static void twoAnswer() {
+        for (int i = 0; i < 100; i++) {
+            System.out.println(i+"");
+        }
     }
 
     private static void oneAnswer() {
