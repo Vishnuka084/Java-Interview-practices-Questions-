@@ -1,4 +1,4 @@
-package src;
+package src.digitalOcen_interviewQuestions;
 
 import java.util.Scanner;
 
