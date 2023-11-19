@@ -9,7 +9,7 @@ package src.prf.Answer;
  */
 public class As5 {
     public static void main(String[] args) {
-        oneAnswer();
+       /* oneAnswer();
         System.out.println("======02======");
         twoAnswer();
         System.out.println("======03======");
@@ -21,15 +21,27 @@ public class As5 {
         System.out.println("======08======");
         System.out.println("======09======");
         System.out.println("======10======");
+*/
+
+        evenNumber();
+
 
     }
 
-    private static void threeAnswer() {
+    private static void evenNumber() {
+        for (int i = 1; i <=100 ; i++) {
+            if (i%2==0){
+                System.out.println(i+ " ");
+            }
+        }
+    }
+
+
+/*    private static void threeAnswer() {
         for (int i = 100; i >0 ; i--) {
             System.out.println(i+ "");
         }
     }
-
     private static void twoAnswer() {
         for (int i = 0; i < 100; i++) {
             System.out.println(i+"");
@@ -40,5 +52,5 @@ public class As5 {
         for (int i = 0; i < 10; i++) {
             System.out.println("Hello World");
         }
-    }
+    }*/
 }
