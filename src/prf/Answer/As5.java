@@ -1,5 +1,7 @@
 package src.prf.Answer;
 
+import java.util.Random;
+
 /**
  * Created by Vishnuka Yahan
  *
@@ -23,9 +25,18 @@ public class As5 {
         System.out.println("======10======");
 */
 
-        evenNumber();
+      //  evenNumber();
+        randomNumber();
 
 
+    }
+
+    private static void randomNumber() {
+        Random rn = new Random();
+        for (int i = 0; i < 10; i++) {
+            int x = rn.nextInt(100);
+            System.out.println(x+ "");
+        }
     }
 
     private static void evenNumber() {
