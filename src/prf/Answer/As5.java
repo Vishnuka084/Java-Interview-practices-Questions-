@@ -24,7 +24,7 @@ public class As5 {
             if (count ==0&& num!=1){
                 System.out.print(num+" "+"|");
             }
-        }
+        }3
 /*
         int i, j,count;
 
