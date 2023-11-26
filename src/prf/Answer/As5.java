@@ -12,7 +12,21 @@ import java.util.Scanner;
  */
 public class As5 {
     public static void main(String[] args) {
+        int d ,number , temp, revenum =0;
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number :");
+        number = sc.nextInt();
+
+        temp = number;
+        while (temp>0){
+            d = temp%0;
+            revenum = (revenum*10)+d;
+            temp = temp/10;
+        }
+        System.out.println(revenum);
+    }
+}
+/*        Scanner sc = new Scanner(System.in);
         System.out.println("Input your number 01:");
         int a = sc.nextInt();
 
@@ -37,10 +51,7 @@ public class As5 {
 
         }
         System.out.println("Max "+max);
-    }
-
-
-}
+    }*/
 /*
         int k = 100;
         for (int i = 0; i < 10; i++) {
