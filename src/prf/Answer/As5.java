@@ -12,7 +12,10 @@ import java.util.Scanner;
  */
 public class As5 {
     public static void main(String[] args) {
-        int d ,number , temp, revenum =0;
+
+    }
+}
+/* int d ,number , temp, revenum =0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number :");
         number = sc.nextInt();
@@ -24,8 +27,7 @@ public class As5 {
             temp = temp/10;
         }
         System.out.println(revenum);
-    }
-}
+    }*/
 /*        Scanner sc = new Scanner(System.in);
         System.out.println("Input your number 01:");
         int a = sc.nextInt();
