@@ -14,9 +14,19 @@ public class As5 {
     public static void main(String[] args) {
 
 
-
     }
 }
+/*int x = 5, y =6;
+        if ((x++>=--y)&&(x-->=++y)){
+            System.out.println(x+ " " +y);
+            if ((x==5)||(y==6)){
+                System.out.println(y+" "+x+" ");
+            }else {
+                System.out.println(x++ +""+ ++y+"");
+            }
+
+        }
+*/
 /* int x = 100;
         System.out.println(x);
 
