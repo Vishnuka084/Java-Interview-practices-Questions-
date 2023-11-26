@@ -1,7 +1,5 @@
 package src.prf.Answer;
 
-import java.util.Random;
-import java.util.Scanner;
 
 /**
  * Created by Vishnuka Yahan
@@ -13,6 +11,17 @@ import java.util.Scanner;
 public class As5 {
     public static void main(String[] args) {
 
+        double[] fractions;
+        fractions = new double[10];
+        System.out.println(fractions[4]);
+            fractions[9] = 1.667;
+            fractions[6] = 3.333;
+
+            double sum = 0;
+        for (int i = 0; i < 10; i++) {
+            sum+=fractions[i];
+        }
+        System.out.println(sum);
     }
 }
 /* int d ,number , temp, revenum =0;
