@@ -12,13 +12,24 @@ import java.util.Scanner;
  */
 public class As5 {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
+
+        int j = 0;
+        while (j++ < 10) {
+            System.out.println(j);
+
+        }
+    }
+
+}
+
+
+        /*for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
 
 
 
-    }
+    }*/
    /*     int x = 0;
         int y = 0;
         for (int i = 0; i < 5; i++) {
@@ -41,8 +52,6 @@ public class As5 {
         System.out.println("Number given greater than  100 "+r);
 
     }
-*/
-
        /* Scanner sc = new Scanner(System.in);
         int i,fact=1;
         int number=5;//It is the number to calculate factorial
@@ -50,9 +59,6 @@ public class As5 {
             fact=fact*i;
         }
         System.out.println("Factorial of "+number+" is: "+fact);*/
-
-
-
        /* Scanner sc = new Scanner(System.in);
         for (int num = 1; num <=100 ; num++) {
             int count=0;
@@ -79,7 +85,6 @@ public class As5 {
             if (count == 2)
                 System.out.print("" + i + " ");
         }*/
-
       /*
         /////////////////////=== A - Z ====/////////////////
         Scanner sc = new Scanner(System.in);
@@ -87,7 +92,6 @@ public class As5 {
         for (c ='A'; c<='z';++c){
             System.out.print(c+" " +"|");
         }*/
-
        /* oneAnswer();
         System.out.println("======02======");
         twoAnswer();
@@ -101,12 +105,8 @@ public class As5 {
         System.out.println("======09======");
         System.out.println("======10======");
 */
-
       //  evenNumber();
      /*   randomNumber();*/
-
-
-    }
 /*
 
     private static void randomNumber() {
@@ -125,8 +125,6 @@ public class As5 {
         }
     }
 */
-
-
 /*    private static void threeAnswer() {
         for (int i = 100; i >0 ; i--) {
             System.out.println(i+ "");
@@ -143,4 +141,3 @@ public class As5 {
             System.out.println("Hello World");
         }
     }*/
-
