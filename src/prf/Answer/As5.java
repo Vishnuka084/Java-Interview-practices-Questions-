@@ -14,8 +14,22 @@ public class As5 {
     public static void main(String[] args) {
 
 
+
     }
 }
+/* int x = 100;
+        System.out.println(x);
+
+        {
+            int y = 200;
+            System.out.println(x);
+            System.out.println(y);
+            x++;y++;
+        }
+        int y = 300;
+        int z = 40;
+        System.out.println(z);
+        System.out.println(y);*/
 /*
         int j = 0;
         while (j++ < 10) {
