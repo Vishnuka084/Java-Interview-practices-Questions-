@@ -13,6 +13,17 @@ import java.util.Scanner;
 public class As5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int i,fact=1;
+        int number=5;//It is the number to calculate factorial
+        for(i=1;i<=number;i++){
+            fact=fact*i;
+        }
+        System.out.println("Factorial of "+number+" is: "+fact);
+
+}
+
+
+       /* Scanner sc = new Scanner(System.in);
         for (int num = 1; num <=100 ; num++) {
             int count=0;
             for (int i = 2; i <=num/2 ; i++) {
@@ -24,7 +35,7 @@ public class As5 {
             if (count ==0&& num!=1){
                 System.out.print(num+" "+"|");
             }
-        }3
+        }*/
 /*
         int i, j,count;
 
@@ -103,7 +114,3 @@ public class As5 {
         }
     }*/
 
-
-
-
-}
