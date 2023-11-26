@@ -12,7 +12,16 @@ import java.util.Scanner;
  */
 public class As5 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int x = 0;
+        int y = 0;
+        for (int i = 0; i < 5; i++) {
+            if ((++x>2)||(++y>2)){
+                x++;
+            }
+        }
+        System.out.println(x+" "+y);
+    }
+       /* Scanner sc = new Scanner(System.in);
         int r = 0;
         for (int i = 1; i <=50 ; i++) {
             System.out.println("Input number "+i+":");
@@ -24,12 +33,9 @@ public class As5 {
         }
         System.out.println("Number given greater than  100 "+r);
 
-
-
-
-
-
     }
+*/
+
        /* Scanner sc = new Scanner(System.in);
         int i,fact=1;
         int number=5;//It is the number to calculate factorial
