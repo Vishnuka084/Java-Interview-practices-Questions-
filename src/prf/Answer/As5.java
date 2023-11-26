@@ -19,7 +19,7 @@ public class As5 {
 
         temp = number;
         while (temp>0){
-            d = temp%0;
+            d = temp%10;
             revenum = (revenum*10)+d;
             temp = temp/10;
         }
