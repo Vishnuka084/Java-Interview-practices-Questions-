@@ -12,29 +12,40 @@ import java.util.Scanner;
  */
 public class As5 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        char c;
-        for (c ='A'; c<='z';++c){
-            System.out.print(c+" " +"|");
+      /*  Scanner sc = new Scanner(System.in);
+        for (int num = 1; num <=100 ; num++) {
+            int count=0;
+            for (int i = 2; i <=num/2 ; i++) {
+                if (num%i==0){
+                    count++;
+                    break;
+                }
+            }
+            if (count ==0&& num!=1){
+                System.out.print(num+" "+"|");
+            }
+        }*/
+
+        int i, j,count;
+
+        System.out.println("Prime numbers between 1 to 100 :");
+        for (i = 2; i <= 100; i++) {
+            count = 0;
+            for (j = i; j >= 1; j--) {
+                if (i % j == 0)
+                    count = count + 1;
+            }
+            if (count == 2)
+                System.out.print("" + i + " ");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      /*
+        /////////////////////=== A - Z ====/////////////////
+        Scanner sc = new Scanner(System.in);
+       char c;
+        for (c ='A'; c<='z';++c){
+            System.out.print(c+" " +"|");
+        }*/
 
        /* oneAnswer();
         System.out.println("======02======");
