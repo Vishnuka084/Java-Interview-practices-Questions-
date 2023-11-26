@@ -12,7 +12,14 @@ import java.util.Scanner;
  */
 public class As5 {
     public static void main(String[] args) {
-        int x = 0;
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+
+
+
+    }
+   /*     int x = 0;
         int y = 0;
         for (int i = 0; i < 5; i++) {
             if ((++x>2)||(++y>2)){
@@ -20,7 +27,7 @@ public class As5 {
             }
         }
         System.out.println(x+" "+y);
-    }
+    }*/
        /* Scanner sc = new Scanner(System.in);
         int r = 0;
         for (int i = 1; i <=50 ; i++) {
