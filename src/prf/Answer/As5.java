@@ -12,12 +12,19 @@ import java.util.Scanner;
  */
 public class As5 {
     public static void main(String[] args) {
+
+        int k = 100;
+        for (int i = 0; i < 10; i++) {
+            System.out.println(k);
+            k++;
+        }
+    }
+}
+/*
         for (int i = 100; i <110 ; i++) {
             System.out.println(i++);
         }
-
-    }
-}
+*/
 /*int x = 5, y =6;
         if ((x++>=--y)&&(x-->=++y)){
             System.out.println(x+ " " +y);
