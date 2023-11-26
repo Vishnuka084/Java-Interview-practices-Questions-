@@ -12,14 +12,41 @@ import java.util.Scanner;
  */
 public class As5 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input your number 01:");
+        int a = sc.nextInt();
 
+        System.out.println("Input your number 01:");
+        int b = sc.nextInt();
+
+        System.out.println("Input your number 01:");
+        int c = sc.nextInt();
+
+        getMex(a,b,c);
+
+
+    }
+
+    private static void getMex(int a, int b, int c) {
+        int max;
+        max=a;
+        if (b>max){
+            max=b;
+        }if (c>max){
+            max=c;
+
+        }
+        System.out.println("Max "+max);
+    }
+
+
+}
+/*
         int k = 100;
         for (int i = 0; i < 10; i++) {
             System.out.println(k);
             k++;
-        }
-    }
-}
+        }*/
 /*
         for (int i = 100; i <110 ; i++) {
             System.out.println(i++);
