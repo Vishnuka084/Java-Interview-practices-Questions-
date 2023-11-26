@@ -13,14 +13,31 @@ import java.util.Scanner;
 public class As5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int r = 0;
+        for (int i = 1; i <=50 ; i++) {
+            System.out.println("Input number "+i+":");
+            int num = sc.nextInt();
+            if (num > 100){
+                r ++;
+            }
+
+        }
+        System.out.println("Number given greater than  100 "+r);
+
+
+
+
+
+
+    }
+       /* Scanner sc = new Scanner(System.in);
         int i,fact=1;
         int number=5;//It is the number to calculate factorial
         for(i=1;i<=number;i++){
             fact=fact*i;
         }
-        System.out.println("Factorial of "+number+" is: "+fact);
+        System.out.println("Factorial of "+number+" is: "+fact);*/
 
-}
 
 
        /* Scanner sc = new Scanner(System.in);
