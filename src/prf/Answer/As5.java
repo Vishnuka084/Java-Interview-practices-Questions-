@@ -26,10 +26,11 @@ public class As5 {
 */
 
       //  evenNumber();
-        randomNumber();
+     /*   randomNumber();*/
 
 
     }
+/*
 
     private static void randomNumber() {
         Random rn = new Random();
@@ -46,6 +47,7 @@ public class As5 {
             }
         }
     }
+*/
 
 
 /*    private static void threeAnswer() {
@@ -64,4 +66,6 @@ public class As5 {
             System.out.println("Hello World");
         }
     }*/
+
+
 }
