@@ -1,6 +1,7 @@
 package src.prf.Answer;
 
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Created by Vishnuka Yahan
@@ -11,6 +12,30 @@ import java.util.Random;
  */
 public class As5 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char c;
+        for (c ='A'; c<='z';++c){
+            System.out.print(c+" " +"|");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        /* oneAnswer();
         System.out.println("======02======");
         twoAnswer();
@@ -66,6 +91,8 @@ public class As5 {
             System.out.println("Hello World");
         }
     }*/
+
+
 
 
 }
