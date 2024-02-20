@@ -11,7 +11,10 @@ package src.prf.Answer;
 public class As5 {
     public static void main(String[] args) {
 
-        double[] fractions;
+
+    }
+}
+/*double[] fractions;
         fractions = new double[10];
         System.out.println(fractions[4]);
             fractions[9] = 1.667;
@@ -21,9 +24,7 @@ public class As5 {
         for (int i = 0; i < 10; i++) {
             sum+=fractions[i];
         }
-        System.out.println(sum);
-    }
-}
+        System.out.println(sum);*/
 /* int d ,number , temp, revenum =0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number :");
